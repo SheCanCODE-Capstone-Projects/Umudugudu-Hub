@@ -51,14 +51,15 @@ function  Signup  ()  {
         <input type="password" name="password" id=""  placeholder='Confirm password...' required/>
 
      </div>
-    </div>
-    <div className="haveAccount">Already have an account? <a href="login"><span>Click here to login</span></a></div>
-    <div className="submit-container">
+     <div className="submit-container">
       <div>
         <button type='submit' className='btn1'>SignUp</button>
 
     </div>
     </div>
+    </div>
+    <div className="haveAccount">Already have an account? <a href="login"><span>Click here to login</span></a></div>
+    
     </form>
     </div>
   

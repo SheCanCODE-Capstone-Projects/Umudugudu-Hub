@@ -1,3 +1,10 @@
+body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+  }
 *{
     font-family:'poppins', sans-serif;
 }
@@ -115,6 +122,9 @@ body{
     
     border-radius: 6px;
 }
+input{
+    padding-left: 10px;
+}
 .input input{
     
     width: 400px;
@@ -123,35 +133,66 @@ body{
     border-radius: 5px;
 }
 .forgot-password{
-    padding-left: 62px;
-    margin-top: 27px;
+    /* padding-left: 62px; */
+    margin-top: 40px;
     color: #797979;
-    font-size: 18px;
+    font-size: 13px;
+}
+.dont-have-account{
+    color: #797979;
+    font-size: 13px;
+
 }
 .forgot-password span{
     color: #4c00b4;
     cursor: pointer;
 }
 .submit-container{
-    margin: 60px auto;
+    margin: 30px auto;
+    padding-bottom: 20px;
 }
 
 .btn{
     background-color: #4D2D4A;
     color: white;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 8px 150px;
+    /* padding-left: 150px;
+    padding-right: 150px; */
     align-items: center;
     border-radius: 50px;
+    margin-left: 15%;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    
+    font-size: 1em;
+    font-weight: 500;
+    
+    background-color: #4D2D4A;
+    cursor: pointer;
+    transition: border-color 0.25s
 }
 .btn1{
     background-color: #4D2D4A;
     color: white;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding: 8px 150px;
     align-items: center;
     border-radius: 50px;
+    margin-left: 3%;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    
+    font-size: 1em;
+    font-weight: 500;
+    
+    background-color: #4D2D4A;
+    cursor: pointer;
+    transition: border-color 0.25s
 
+}
+.btn1:hover{
+    background-color: transparent;
+    border: 2px solid #4D2D4A;
+    color: black;
 }
 button{
     margin: 0 40%;
@@ -200,8 +241,8 @@ div .loginlink{
     border: 2px solid #88167D;
     width: 100%;
     border-radius: 20px;
-    padding: 3px 8px;
-    height: 70%;
+    padding: 5px 15px;
+    /* height: 70%; */
     align-items: center;
     /* background-color: rgb(0, 0, 0); */
     font-size: 15px;
@@ -213,10 +254,11 @@ div .signuplink{
     border: 2px solid #88167D;
     width: 100%;
     text-align: center;
-    margin: -5% 50%;
+    justify-content: center;
+    margin: -3% 50%;
     border-radius: 20px;
-    padding: 3px 8px;
-    height: 70%;
+    padding: 5px 15px;
+    /* height: 70%; */
     /* background-color: black; */
     font-size: 15px;
     
@@ -235,14 +277,24 @@ div .signuplink{
 
 }
 .signuplink:hover{
-    background-color: transparent;
+    background-color: white;
     color: black;
 }
-.loginlink:hover{
-    background-color: transparent;
-    color: black;
-}
+/* .signuplink{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+} */
 
+.loginlink:hover{
+    background-color: white;
+    color: black;
+}
+.haveAccount{
+    font-size: 13px;
+    color: rgb(182, 173, 173);
+    
+}
 
 
 

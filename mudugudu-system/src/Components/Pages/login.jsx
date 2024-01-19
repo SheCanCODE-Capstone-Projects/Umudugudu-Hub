@@ -25,7 +25,7 @@ function  Login ()  {
             
             <input type="text" name="username" id="" placeholder='Username...' required/>
 
-     </div>
+     </div> <br />
      <div className='password'><label htmlFor="password">Password</label></div>
      
      <div className="input">
@@ -34,14 +34,15 @@ function  Login ()  {
 
      </div>
     </div>
-    <div className="forgot-password">Forget your password? <span>Click here</span></div>
-    <div className="forgot-password">Don't have account? <a href="signup"><span>Click here to Sign Up</span></a></div>
     <div className="submit-container">
       <div>
         <button type='submit' className='btn'>Login</button>
 
     </div>
     </div>
+    <div className="forgot-password">Forget your password? <span>Click here</span></div>
+    <div className="dont-have-account">Don't have account? <a href="signup"><span>Click here to Sign Up</span></a></div>
+    
     </form>
     </div>
    
